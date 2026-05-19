@@ -69,6 +69,15 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 - Focus on explaining the non-obvious stuff in the comments: the nuances or details
 - NEVER mindlessly remove comments without reasons
 
+## 6. Header Comments
+
+- EVERY file HAS TO start with 4 lines of comments:
+  1. Exact file location in the codebase
+  2. Clear description of what this file does
+  3. Clear description of why this file exists
+  4. RELEVANT FILES: comma-separated list of 2-4 most relevant files
+- NEVER delete these "header comments" from the files you are editing
+
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
