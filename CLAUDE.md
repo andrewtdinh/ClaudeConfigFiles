@@ -23,6 +23,8 @@ Before implementing:
 - No "flexibility" or "configurability" that wasn't requested.
 - No error handling for impossible scenarios.
 - If you write 200 lines and it could be 50, rewrite it.
+- Always prioritize writing clean, simple, and modular code
+- DO NOT BE LAZY! Always read files IN FULL!!
 
 Ask yourself: "Would a senior engineer say this is overcomplicated?" If yes, simplify.
 
@@ -59,6 +61,13 @@ For multi-step tasks, state a brief plan:
 ```
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
+
+## 5. Comments
+
+- Write lots of comments in your code. Explain exactly what you are doing in your comments, but be strategic.  Do not explain obvious syntax; instead, explain your thought process at the time of writing the code.
+- NEVER delete explanatory comments from code you are editing (unless they are wrong or obsolete. In those cases, just update the comments).
+- Focus on explaining the non-obvious stuff in the comments: the nuances or details
+- NEVER mindlessly remove comments without reasons
 
 ---
 
